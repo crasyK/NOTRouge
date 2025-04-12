@@ -23,8 +23,6 @@ int main(void)
     int widthfield = screenWidth/sizeoffield;
     int heightfield = screenHeight/sizeoffield - 1;
 
-
-
     InitWindow(screenWidth, screenHeight, "Jumpers");
     ToggleFullscreen();
 
